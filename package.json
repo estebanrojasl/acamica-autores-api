@@ -1,0 +1,34 @@
+{
+  "name": "acamica-delilah-resto",
+  "version": "1.0.0",
+  "description": "Proyecto donde se hará un seguimiento clase a clase del Bloque 3: Delilah Restó",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/config/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilmardev/acamica-delilah-resto.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "acamica"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wilmardev/acamica-delilah-resto/issues"
+  },
+  "homepage": "https://github.com/wilmardev/acamica-delilah-resto#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cool-images": "^1.0.3",
+    "express": "^4.17.1",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
